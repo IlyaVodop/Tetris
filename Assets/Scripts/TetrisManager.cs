@@ -35,8 +35,8 @@ public class TetrisManager : MonoBehaviour
             LocalInit(verticalSettings);
         });
 
-        _view.Init(tetrisGamePlay);
-        _controller.Init(tetrisGamePlay);
+        view.Init(tetrisGamePlay);
+        controller.Init(tetrisGamePlay);
 
     }
    
