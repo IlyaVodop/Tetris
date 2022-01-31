@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da4d3a6a2098324d8b84be9df2b283f, type: 3}
+  m_Name: HorizontalTetrisConfig
+  m_EditorClassIdentifier: 
+  cube: 10
+  z: 15
+  s: 15
+  l: 15
+  j: 15
+  i: 10
+  t: 5
+  plus: 5
+  c: 5
+  e: 5
+  width: 12
+  height: 20
+  numberOfDestroyLayers: 2
+  isCanPierceFromWall: 1
