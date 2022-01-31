@@ -22,9 +22,6 @@ public partial class TetrisGamePlay
             {
                 area[x, y] = null;
                 Destroy(obj);
-
-
-
             }
         }
     }

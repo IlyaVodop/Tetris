@@ -15,8 +15,4 @@ public class UiManager : MonoBehaviour
         ModeVertical.transform.DOMove(ModeVerticalAnchor.transform.position, 1);
         ModeHorisontal.transform.DOMove(ModeHorisontalAnchor.transform.position, 1);
     }
-    void Update()
-    {
-
-    }
 }

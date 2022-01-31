@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.UI;
-
+using Zenject; 
 public class View : MonoBehaviour
 {
     [SerializeField] Text score;

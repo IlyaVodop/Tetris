@@ -1,13 +1,13 @@
 ﻿
 using UnityEngine;
 using UnityEngine.UI;
-
+using Zenject;
 public class TetrisManager : MonoBehaviour
 {
+    [Inject] private View view;
+    [Inject] private Controller controller;
 
-    [SerializeField] private View view;
     [SerializeField] private TetrisGamePlay tetrisGamePlay;
-    [SerializeField] private Controller controller;
 
     [SerializeField] private Button verticalButton;
     [SerializeField] private Button horizontalButton;
@@ -35,8 +35,8 @@ public class TetrisManager : MonoBehaviour
             LocalInit(verticalSettings);
         });
 
-        view.Init(tetrisGamePlay);
-        controller.Init(tetrisGamePlay);
+        _view.Init(tetrisGamePlay);
+        _controller.Init(tetrisGamePlay);
 
     }
    
