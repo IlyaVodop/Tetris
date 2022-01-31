@@ -3,12 +3,13 @@ using Zenject;
 
 public class UntitledInstaller : MonoInstaller
 {
-    [SerializeField] private View _view;
-    [SerializeField] private Controller _controller;
-   
+    [SerializeField] private View view;
+    [SerializeField] private Controller  controller;
+    [SerializeField] private TetrisConfig currentSettings;
     public override void InstallBindings()
     {
-        Container.BindInstance(_view);
-        Container.BindInstance(_controller); 
+        Container.BindInstance(view);
+        Container.BindInstance(controller);
+        Container.BindInstance(currentSettings);
     }
 }
